@@ -9,15 +9,6 @@ const Home = async () => {
   return (
     <>
       <h1>Hello</h1>
-      <form
-        className="px-10 pt-[100px]"
-        action={async () => {
-          "use server";
-          await signOut({ redirectTo: ROUTES.SIGN_IN });
-        }}
-      >
-        <Button type="submit">Log out</Button>
-      </form>
     </>
   );
 };
