@@ -14,7 +14,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         </section>
         <RightSideBar />
       </div>
-      {children}
+      {/* {children} */}
     </main>
   );
 };
