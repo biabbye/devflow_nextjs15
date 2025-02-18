@@ -23,5 +23,13 @@ export default [
     rules: {
       "no-undef": "off",
     },
+    overrides: [
+      {
+        files: ["*.ts", "*.tsx"],
+        rules: {
+          "no-undef": "off",
+        },
+      },
+    ],
   },
 ];
